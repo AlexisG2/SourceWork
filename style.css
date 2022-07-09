@@ -91,15 +91,30 @@ header{
 }
 
 .secondSection{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: 40%;
     width: 100%;
     border: 2px solid brown;
 }
 
+.firstOfFourDivs, .twoOfFourDivs, .thirdOfFourDivs, .fourOfFourDivs{
+    height: 90%;
+    width: 20%;
+    border: 2px solid teal;
+}
+
 .thirdSection{
-    height: 60%;
+    height: 40%;
     width: 100%;
     border: 2px solid salmon;
+}
+
+.thirdSectionContent{
+    height: 70%;
+    width: 40%;
+    border: 2px solid fuchsia;
 }
 
 /******************************************
