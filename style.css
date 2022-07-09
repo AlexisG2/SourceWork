@@ -35,7 +35,71 @@ body{
 /*******************************************/
 
 header{
-    
+   display: flex;
+   height: 10%;
+   width: 100%;
+   border: 2px solid orange;
+}
+
+.logoHouse{
+    height: 100%;
+    width: 20%;
+    border: 2px solid black;
+}
+
+.listHouse{
+    height: 100%;
+    width: 60%;
+    border: 2px solid blue;
+}
+
+.buttonHouse{
+    height: 100%;
+    width: 20%;
+    border: 2px solid grey;
+}
+
+.firstSection{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    border: 2px solid red;
+}
+
+.firstSubSec{
+    height: 100%;
+    width: 50%;
+    border: 2px solid green;
+}
+
+.firstSecContent{
+    height: 70%;
+    width: 80%;
+    border: 2px solid aqua;
+}
+
+.firstSecImageContainer{
+    height: 90%;
+    width: 100%;
+    border: 2px solid crimson;
+}
+
+.secondSubSec{
+    height: 100%;
+    width: 50%;
+    border: 2px solid darkblue;
+}
+
+.secondSection{
+    height: 40%;
+    width: 100%;
+    border: 2px solid brown;
+}
+
+.thirdSection{
+    height: 60%;
+    width: 100%;
+    border: 2px solid salmon;
 }
 
 /******************************************
