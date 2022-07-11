@@ -67,8 +67,11 @@ header{
 }
 
 .firstSubSec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100%;
-    width: 50%;
+    width: 70%;
     border: 2px solid green;
 }
 
@@ -106,6 +109,8 @@ header{
 }
 
 .thirdSection{
+    display: flex;
+    align-items: center;
     height: 40%;
     width: 100%;
     border: 2px solid salmon;
