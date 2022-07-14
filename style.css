@@ -38,7 +38,6 @@ header{
    display: flex;
    height: 10%;
    width: 100%;
-   border: 2px solid orange;
 }
 
 .logoHouse{
@@ -47,7 +46,6 @@ header{
     align-items: center;
     height: 100%;
     width: 20%;
-    border: 2px solid black;
 }
 
 .listHouse{
@@ -56,7 +54,6 @@ header{
     align-items: center;
     height: 100%;
     width: 60%;
-    border: 2px solid blue;
 }
 
 .buttonHouse{
@@ -72,7 +69,6 @@ header{
     display: flex;
     height: 80%;
     width: 100%;
-    border: 2px solid red;
 }
 
 .firstSubSec{
@@ -81,26 +77,22 @@ header{
     align-items: center;
     height: 100%;
     width: 70%;
-    border: 2px solid green;
 }
 
 .firstSecContent{
     height: 70%;
     width: 50%;
-    border: 2px solid aqua;
 }
 
 .firstSecImageContainer{
     margin-top: 4%;
     height: 90%;
     width: 100%;
-    border: 2px solid crimson;
 }
 
 .secondSubSec{
     height: 100%;
     width: 50%;
-    border: 2px solid darkblue;
 }
 
 .secondSection{
@@ -109,14 +101,12 @@ header{
     align-items: center;
     height: 55%;
     width: 100%;
-    border: 2px solid brown;
 }
 
 
 .fourSplits{
     height: 80%;
     width: 20%;
-    border: 2px solid grey;
 }
 
 .fourSplitContent{
@@ -130,13 +120,11 @@ header{
     align-items: center;
     height: 40%;
     width: 100%;
-    border: 2px solid salmon;
 }
 
 .thirdSectionContent{
     height: 70%;
     width: 40%;
-    border: 2px solid fuchsia;
 }
 
 /******************************************
@@ -153,3 +141,11 @@ header{
     width: 100%;
 }
 
+.firstSection, .secondSection, header{
+    background: rgb(229 237 246);
+}
+
+a{
+    text-decoration: none;
+    color: darkblue;
+}
